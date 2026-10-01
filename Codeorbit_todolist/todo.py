@@ -28,3 +28,10 @@ def remove_task():
             print("Please enter a number only!")
         except IndexError:
             print("That task number does not exist!")
+
+def save_tasks():
+    file = open("tasks.txt", "w")
+    for task in tasks:
+        file.write(task + "\n")
+    file.close()
+
