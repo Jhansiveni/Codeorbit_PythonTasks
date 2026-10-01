@@ -25,3 +25,10 @@ while True:
         else:
             print("Correct! You guessed it in", attempts, "attempts.")
             break
+
+
+    # Ask if the user wants to play again
+    again = input("\nPlay again? (yes/no): ")
+    if again != "yes":
+        print("Thanks for playing! Goodbye!")
+        break
