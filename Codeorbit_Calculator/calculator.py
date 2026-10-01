@@ -22,6 +22,10 @@ while True:
         # Runs when you divide by 0
         print("Error: You cannot divide by zero!")
 
+    except ValueError:
+        # Runs when you type letters instead of a number
+        print("Error: Please enter numbers only!")
+
 
 
    
