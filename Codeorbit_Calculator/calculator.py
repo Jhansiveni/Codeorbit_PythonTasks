@@ -18,4 +18,10 @@ while True:
         else:
             print("Invalid operator!")
 
+    except ZeroDivisionError:
+        # Runs when you divide by 0
+        print("Error: You cannot divide by zero!")
 
+
+
+   
