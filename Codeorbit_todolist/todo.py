@@ -35,3 +35,26 @@ def save_tasks():
         file.write(task + "\n")
     file.close()
 
+# Main program
+while True:
+    print("\n===== TO-DO LIST =====")
+    print("1. Add task")
+    print("2. View tasks")
+    print("3. Remove task")
+    print("4. Save and exit")
+
+    choice = input("Enter your choice (1-4): ")
+
+    if choice == "1":
+        add_task()
+    elif choice == "2":
+        view_tasks()
+    elif choice == "3":
+        remove_task()
+    elif choice == "4":
+        save_tasks()
+        print("Tasks saved to tasks.txt. Goodbye!")
+        break
+    else:
+        print("Invalid choice! Enter 1, 2, 3 or 4.")
+
