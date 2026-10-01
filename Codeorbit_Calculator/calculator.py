@@ -26,6 +26,15 @@ while True:
         # Runs when you type letters instead of a number
         print("Error: Please enter numbers only!")
 
+    # Ask if the user wants to continue
+    again = input("Calculate again? (yes/no): ")
+    if again != "yes":
+        print("Goodbye!")
+        break
+
+
+
+
 
 
    
