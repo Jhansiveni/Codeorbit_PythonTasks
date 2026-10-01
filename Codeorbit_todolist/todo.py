@@ -16,3 +16,15 @@ def view_tasks():
         for task in tasks:
             print(number, ".", task)
             number = number + 1
+
+def remove_task():
+    view_tasks()
+    if len(tasks) > 0:
+        try:
+            number = int(input("Enter the task number to remove: "))
+            tasks.pop(number - 1)
+            print("Task removed!")
+        except ValueError:
+            print("Please enter a number only!")
+        except IndexError:
+            print("That task number does not exist!")
