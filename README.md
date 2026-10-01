@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # CodeOrbit Python Programming Internship
 
 Python tasks completed for the CodeOrbit Tech Python Programming Internship (1 Month, 3 Tasks).
