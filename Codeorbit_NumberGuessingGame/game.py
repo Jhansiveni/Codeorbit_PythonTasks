@@ -9,7 +9,7 @@ while True:
 
     print("\nI am thinking of a number between 1 and 100.")
 
-     while True:
+    while True:
         try:
             guess = int(input("Enter your guess: "))
         except ValueError:
